@@ -64,15 +64,15 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ INSERT   │  1       │  2       │  3       │          │   │ HOME     │ PAGE DN  │ PAGE UP  │ END      │  :       │
-            &kp INS    &kp N1     &kp N2     &kp N3     &trans         &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp COLON
+        &kp LG(FR_AMPR) &kp LG(FR_EACU) &kp LG(FR_DQUO) &kp LG(FR_QUOT) &kp LG(FR_LPRN) &kp LG(FR_MINS) &kp TAB   &kp LG(UP)  &trans   &kp DEL
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ DELETE   │  4       │  5       │  6       │          │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ;       │
-            &kp DEL    &kp N4     &kp N5     &kp N6     &trans         &kp LARW   &kp DARW   &kp UARW   &kp RARW   &kp SEMI
+        &kp LG(FR_A) &kp LG(FR_R)  &trans    &kp LG(FR_F) &trans      &caps_word &kp LG(LEFT) &kp LG(DOWN) &kp LG(RIGHT)  FR_DIAE
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ CAPS     │  7       │  8       │  9       │  0       │   │          │          │          │          │          │
-           &caps_word  &kp N7     &kp N8     &kp N9     &kp N0         &trans     &trans     &trans     &trans     &trans
+            &trans   &kp LG(FR_X)  &trans    &kp LG(FR_D) &trans       &trans   &kp LG(FR_N)  &trans     &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &kp ESC        &trans     &trans
+                                             &trans     &trans        &kp LG(ENTER) &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
