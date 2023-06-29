@@ -49,7 +49,7 @@
            TRML(FR_Q,  FR_W,      FR_F,      FR_P)      &kp FR_B       &kp FR_J  TRMR(FR_L,  FR_U,      FR_Y,      FR_QUOT)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  R       │  S       │  T       │  G       │   │  M       │  N       │  E       │  I       │ O        │
-            &kp FR_A   &kp FR_R   &kp FR_S,  &kp FR_T   &kp FR_G       &kp FR_M   &kp FR_N   &kp FR_E   &kp FR_I   &kp FR_O
+            &kp FR_A   &kp FR_R   &kp FR_S   &kp FR_T   &kp FR_G       &kp FR_M   &kp FR_N   &kp FR_E   &kp FR_I   &kp FR_O
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  D       │  V       │   │  K       │  H       │  ,       │  .       │  ^       │
             &kp FR_Z   &kp FR_X   &kp FR_C   &kp FR_D   &lt V_FRENCH   &kp FR_K   &kp FR_H   &kp FR_COMM  &kp FR_DOT  &kp FR_CIRC
