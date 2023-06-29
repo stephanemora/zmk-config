@@ -45,7 +45,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  Q       │  W       │  F       │  P       │  B       │   │  J       │  L       │  U       │  Y       │  '       │
-           HRML(FR_Q,  FR_W,      FR_F,      FR_P)      &kp FR_B       &kp FR_J  TRMR(FR_L,  FR_U,      FR_Y,      FR_QUOT)
+           TRML(FR_Q,  FR_W,      FR_F,      FR_P)      &kp FR_B       &kp FR_J  TRMR(FR_L,  FR_U,      FR_Y,      FR_QUOT)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  R       │  S       │  T       │  G       │   │  M       │  N       │  E       │  I       │ O        │
             &kp FR_A   &kp FR_R   &kp FR_S,  &kp FR_T   &kp FR_G       &kp FR_M   &kp FR_N   &kp FR_E   &kp FR_I   &kp FR_O
