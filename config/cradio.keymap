@@ -67,32 +67,32 @@
         compatible = "zmk,combos";
         combo_ne_eaigu {
             timeout-ms = <50>;
-            key-positions = <17 18>;
+            key-positions = <16 17>;
             bindings = <&kp FR_EACU>;
         };
         combo_hcomma_egrave {
             timeout-ms = <50>;
-            key-positions = <27 28>;
+            key-positions = <26 27>;
             bindings = <&kp FR_EGRV>;
         };
         combo_xc_ugrave {
             timeout-ms = <50>;
-            key-positions = <22 23>;
+            key-positions = <21 22>;
             bindings = <&kp FR_UGRV>;
         };
         combo_st_agrave {
             timeout-ms = <50>;
-            key-positions = <13 14>;
+            key-positions = <12 13>;
             bindings = <&kp FR_AGRV>;
         };
         combo_cd_ccedille {
             timeout-ms = <50>;
-            key-positions = <23 24>;
+            key-positions = <22 23>;
             bindings = <&kp FR_CCED>;
         };
         combo_rst_vim_all_save {
             timeout-ms = <50>;
-            key-positions = <12 13 14>;
+            key-positions = <11 12 13>;
             bindings =  <&macro_rst_vim_all_save>;
         };
     };
