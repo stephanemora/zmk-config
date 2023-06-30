@@ -49,7 +49,7 @@
                         <&macro_tap &kp FR_A>,
                         <&macro_tap &kp FR_L>,
                         <&macro_tap &kp FR_L>,
-                        <&macro_tap &kp KC_ENT>;
+                        <&macro_tap &kp ENTER>;
         };
     };
 
