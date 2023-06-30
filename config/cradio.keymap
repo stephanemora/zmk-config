@@ -52,7 +52,7 @@
             &kp FR_A   &kp FR_R   &kp FR_S   &kp FR_T   &kp FR_G       &kp FR_M   &kp FR_N   &kp FR_E   &kp FR_I   &kp FR_O
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  D       │  V       │   │  K       │  H       │  ,       │  .       │  ^       │
-            &kp FR_Z   &kp FR_X   &kp FR_C   &kp FR_D  &lt FR_V FRENCH   &kp FR_K   &kp FR_H   &kp FR_COMM  &kp FR_DOT  &kp FR_CIRC
+            &kp FR_Z   &kp FR_X   &kp FR_C   &kp FR_D  &lt FRENCH FR_V   &kp FR_K   &kp FR_H   &kp FR_COMM  &kp FR_DOT  &kp FR_CIRC
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &lt SYM ESC  &lt NAV SPACE     &lt NUM BSPC   &lt FRENCH ENTER
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -64,7 +64,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ INSERT   │  1       │  2       │  3       │          │   │ HOME     │ PAGE DN  │ PAGE UP  │ END      │  :       │
-        &kp LG(FR_AMPR) &kp LG(FR_EACU) &kp LG(FR_DQUO) &kp LG(FR_QUOT) &kp LG(FR_LPRN) &kp LG(FR_MINS) &kp TAB   &kp LG(UP)  &trans   &kp DEL
+        &kp LG(FR_AMPR) &kp LG(FR_EACU) &kp LG(FR_DQUO) &kp LG(FR_QUOT) &kp LG(FR_LPRN) &kp LG(FR_MINS) &kp TAB   &kp LG(UP)  &kp INSERT   &kp DEL
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ DELETE   │  4       │  5       │  6       │          │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ;       │
         &kp LG(FR_A) &kp LG(FR_R)  &trans    &kp LG(FR_F) &trans      &caps_word &kp LG(LEFT) &kp LG(DOWN) &kp LG(RIGHT) &kp FR_DIAE
@@ -100,13 +100,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ RESET    │          │          │          │PROFILE 0 │   │          │          │          │          │  RESET   │
-           &sys_reset  &trans     &trans     &trans    &bt BT_SEL 0    &trans     &trans     &trans     &trans    &sys_reset
+          &kp FR_TILD  &kp FR_DQUO  &kp FR_ASTR  &kp FR_AMPR  &kp FR_LBRC   &kp FR_RBRC  &kp FR_PLUS   &kp FR_MINS   &kp FR_PIPE    &kp FR_QUES
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│BOOTLOADER│          │          │          │PROFILE 1 │   │          │          │          │          │BOOTLOADER│
-          &bootloader  &trans     &trans     &trans    &bt BT_SEL 1    &trans     &trans     &trans     &trans    &bootloader
+          &kp FR_GRV  &kp FR_SCLN   &kp FR_PERC   &kp FR_DLR   &kp FR_LPRN   &kp FR_RPRN   &kp FR_EQL   &kp FR_UNDS   &kp FR_SLSH  &kp FR_BSLS
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │ CLEAR BT │PROFILE 2 │   │          │          │          │          │          │
-            &trans     &trans     &trans    &bt BT_CLR &bt BT_SEL 2    &trans     &trans     &trans     &trans     &trans
+            &kp FR_CIRC   &kp FR_HASH   &kp FR_AT    &kp FR_EXLM  &kp FR_LCBR  &kp FR_RCBR   &kp FR_LABK   &kp FR_RABK   &kp FR_COLN   &kp FR_DIAE
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -118,13 +118,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ RESET    │          │          │          │PROFILE 0 │   │          │          │          │          │  RESET   │
-           &sys_reset  &trans     &trans     &trans    &bt BT_SEL 0    &trans     &trans     &trans     &trans    &sys_reset
+           &trans      &trans     &trans     &trans     &trans        &kp LC(UP)   &kp LC(LEFT)  &kp UP  &kp LC(RIGHT)  &kp PG_UP
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│BOOTLOADER│          │          │          │PROFILE 1 │   │          │          │          │          │BOOTLOADER│
-          &bootloader  &trans     &trans     &trans    &bt BT_SEL 1    &trans     &trans     &trans     &trans    &bootloader
+           &trans      &trans     &trans     &trans     &trans        &kp LC(DOWN)  &kp LEFT  &kp DOWN   &kp RIGHT  &kp PG_DN
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │ CLEAR BT │PROFILE 2 │   │          │          │          │          │          │
-            &trans     &trans     &trans    &bt BT_CLR &bt BT_SEL 2    &trans     &trans     &trans     &trans     &trans
+            &trans     &trans     &trans     &trans     &trans        &trans     &trans     &trans     &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -142,7 +142,7 @@
           &bootloader  &trans     &trans     &trans    &bt BT_SEL 1    &trans     &trans     &trans     &trans    &bootloader
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │ CLEAR BT │PROFILE 2 │   │          │          │          │          │          │
-            &trans     &trans     &trans    &bt BT_CLR &bt BT_SEL 2    &trans     &trans     &trans     &trans     &trans
+            &trans     &trans     &trans    &bt BT_CLR &bt BT_SEL 2    &trans     &trans     &kp C_MUTE  &kp C_VOLUME_DOWN   &kp C_VOL_UP
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
