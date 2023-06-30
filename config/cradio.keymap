@@ -71,7 +71,7 @@
         combo_rst_vim_all_save {
             timeout-ms = <50>;
             key-positions = <12 13 14>;
-            bindings = <&kp FR_COLN>, <&kp FR_W>, <&kp FR_A>, <&kp FR_L>, <&kp FR_L>, <&kp KC_ENT>;
+            bindings = <&macro_tap &kp FR_COLN>, <&macro_tap &kp FR_W>, <&macro_tap &kp FR_A>, <&macro_tap &kp FR_L>, <&macro_tap &kp FR_L>, <&macro_tap &kp KC_ENT>;
         };
     };
 
