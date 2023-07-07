@@ -5,6 +5,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include "keymap_french.h"
+#include "mousekeyspr.h"
 
 // Top row mods macro
 #define TRML(k1,k2,k3,k4) &ht LGUI k1  &ht LALT k2  &ht LCTRL k3  &ht LSHFT k4
@@ -172,14 +173,14 @@
             label= "NAV";
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│ RESET    │          │          │          │PROFILE 0 │   │          │          │          │          │  RESET   │
-           &trans      &trans     &trans     &trans     &trans        &kp LC(UP)   &kp LC(LEFT)  &kp UP  &kp LC(RIGHT)  &kp PG_UP
+        //│ RESET    │          │          │          │          │   │          │          │          │          │  RESET   │
+           &trans      U_BTN1     U_MS_U     U_BTN2     U_WH_U        &kp LC(UP)   &kp LC(LEFT)  &kp UP  &kp LC(RIGHT)  &kp PG_UP
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│BOOTLOADER│          │          │          │PROFILE 1 │   │          │          │          │          │BOOTLOADER│
-           &trans      &trans     &trans     &trans     &trans        &kp LC(DOWN)  &kp LEFT  &kp DOWN   &kp RIGHT  &kp PG_DN
+        //│BOOTLOADER│          │          │          │          │   │          │          │          │          │BOOTLOADER│
+           &trans      U_MS_L     U_MS_D     U_MS_R     U_WH_D        &kp LC(DOWN)  &kp LEFT  &kp DOWN   &kp RIGHT  &kp PG_DN
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │          │          │ CLEAR BT │PROFILE 2 │   │          │          │          │          │          │
-            &trans     &trans     &trans     &trans     &trans        &trans     &trans     &trans     &trans     &trans
+        //│          │          │          │          │          │   │          │          │          │          │          │
+            &trans     U_WH_L     U_BTN3     U_WH_R     &trans        &trans     &trans     &trans     &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
