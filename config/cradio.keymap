@@ -123,7 +123,7 @@
         &kp LG(FR_AMPR) &kp LG(FR_EACU) &kp LG(FR_DQUO) &kp LG(FR_QUOT) &kp LG(FR_LPRN) &kp LG(FR_MINS) &kp TAB   &kp LG(UP)  &kp INSERT   &kp DEL
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ DELETE   │  4       │  5       │  6       │          │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ;       │
-        &kp LG(FR_A) &kp LG(FR_R)  &trans    &kp LG(FR_F) &trans      &caps_word &kp LG(LEFT) &kp LG(DOWN) &kp LG(RIGHT) &kp FR_DIAE
+        &kp LG(FR_A) &kp LG(FR_R)  &trans    &kp LG(FR_F) &trans      &kp CAPS   &kp LG(LEFT) &kp LG(DOWN) &kp LG(RIGHT) &kp FR_DIAE
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ CAPS     │  7       │  8       │  9       │  0       │   │          │          │          │          │          │
             &trans   &kp LG(FR_X)  &trans    &kp LG(FR_D) &trans       &trans   &kp LG(FR_N)  &trans     &trans     &trans
