@@ -108,7 +108,7 @@
             &kp FR_A   &kp FR_R   &kp FR_S   &kp FR_T   &kp FR_G       &kp FR_M   &kp FR_N   &kp FR_E   &kp FR_I   &kp FR_O
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  D       │  V       │   │  K       │  H       │  ,       │  .       │  ^       │
-            &kp FR_Z   &kp FR_X   &kp FR_C   &kp FR_D  &lt FRENCH FR_V   &kp FR_K   &kp FR_H   &kp FR_COMM  &kp FR_DOT  &kp FR_CIRC
+            &kp FR_Z   &kp FR_X   &kp FR_C   &kp FR_D  &ht FRENCH FR_V   &kp FR_K   &kp FR_H   &kp FR_COMM  &kp FR_DOT  &kp FR_CIRC
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &lt SYM ESC  &lt NAV SPACE     &lt NUM BSPC   &lt FRENCH ENTER
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
