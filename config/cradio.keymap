@@ -22,7 +22,7 @@
 
 // Define explicit momentary toggle instead of using defaults: https://zmk.dev/docs/behaviors/layers#layer-tap
 &lt {
-    flavor = "balanced";
+    flavor = "hold-preferred";
     tapping_term_ms = <200>;
     quick-tap-ms = <QUICK_TAP_MS>;
 };
